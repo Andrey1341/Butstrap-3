@@ -1,0 +1,278 @@
+@media screen and (max-width:768px) {
+    .container{
+        width: 768px;
+    }
+    .hero{
+        min-height: 1000px;
+        background: url("./img/tables-arnaud-mesureur-17OxKyThYPo-unsplash\ 1.png") center top no-repeat;
+    }
+    .header{
+        display: flex;
+        background: #1968B1;
+        padding-top: 26px;
+        margin-bottom: 366px;
+        height: 91px;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .logo{
+        height: 39px;
+        margin-left: 30px;
+    }
+    .navbar{
+        display: none;
+    }
+    .gamburger{
+        display: block;
+        margin-right: 35px;
+    }
+    .gamburger-foto{
+        display: flex;
+        flex-direction: column;
+    }
+    .gamburger-img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 5px;
+    }
+    .gamburger-img:last-child{
+        margin-bottom: 0;
+    }
+    .gamburger-list{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .contact:last-child{
+        display: block;
+    }
+    .gamburger:active .gamburger-list{
+        display: block;
+    }
+    .hero-content{
+        text-align: center;
+    }
+    .hero-title{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 365px;
+        width: 80%;
+        margin-bottom: 9px;
+    }
+    .btn-margin{
+        margin-bottom: 0;
+    }
+    .hero-list{
+        display: none;
+    }
+    .container-why{
+        height: 1000px;
+    }
+    .why-title{
+        margin-top: 269px;
+    }
+    .why-text{
+        padding: 0 17%;
+    }
+    .container-color{
+        min-height: 816px;
+    }
+    .color{
+        display: block;
+        text-align: center;
+        padding-top: 27px;
+    }
+    .color-img{
+        text-align: center;
+    }
+    .parametru{
+        display: none;
+    }
+    .color-title{
+        margin-bottom: 14px;
+    }
+    .color-text{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .color-list{
+        width: 44%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .color-obiortka{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-bottom: 82px;
+    }
+    .container-komanda{
+        height: 1000px;
+    }
+    .komanda-list{
+        display: none;
+    }
+    .komanda__mobile-list{
+        display: block;
+        text-align: center;
+    }
+    .komanda-title{
+        margin-top: 175px;
+        margin-bottom: 33px;
+    }
+    .komanda-item{
+        margin-bottom: 16px;
+    }
+    .komanda__mobile-obiorka__additionally{
+        display: none;
+    }
+    .komanda__mobile-link:hover .komanda__mobile-obiorka__additionally{
+        display: block;
+    }
+    .komanda__mobile-list{
+        margin-bottom: 195px;
+    }
+    .section-reviews{
+        height: 976px;
+    }
+    .reviews-title{
+        margin-top: 182px;
+        margin-bottom: 33px;
+    }
+    .reviews-list{
+        height: 418px;
+        width: 95%;
+    }
+    .reviews-item--active{
+        display: block;
+        padding: 56px 24px 46px 23px;
+    }
+    .reviews-img{
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+    .reviews-images{
+        width: 130px;
+        height: 130px;
+    }
+    .reviews-content{
+        text-align: center;
+    }
+    .reviews-text{
+        margin-bottom: 16px;
+    }
+    .reviews-desc{
+        margin-bottom: 16px;
+    }
+    .reviews-switch{
+        margin-bottom: 180px;
+    }
+    .container-form{
+        min-height: 966px;
+    }
+    .form{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .form-input--textarea{
+        height: 82px;
+    }
+    .form-obiortka{
+        margin-left: auto;
+        margin-right: auto;
+        width: 261px;
+    }
+    .form-obiortka{
+        padding-bottom: 180px;
+    }
+}
+@media screen and (max-width:480px) {
+    .container{
+        width: 480px;
+        margin: 0 3px;
+    }
+    .hero{
+        min-height: 800px;
+        background: url("./img/pnones-arnaud-mesureur-17OxKyThYPo-unsplash\ 1.png") center center no-repeat;
+    }
+    .hero-title{
+        margin-top: 260px;
+        width: 100%;
+        font-size: 40px;
+        line-height: 36px;
+    }
+    .container-why{
+        min-height: 707px;
+    }
+    .why-title{
+        margin-top: 52px;
+        margin-bottom: 9px;
+    }
+    .surfboarg{
+        display: block;
+    }
+    .surfboarg__item{
+        display: flex;
+        margin-bottom: 31px;
+    }
+    .surfboarg__item:first-child{
+        padding-left: 3%;
+    }
+    .surfboarg__img{
+        margin-right: 2%;
+        margin-bottom: 0;
+    }
+    .surfboarg__text{
+        text-align: left;
+    }
+    .color-list{
+        width: 70%;
+    }
+    .color-obiortka{
+        width: 80%;
+    }
+    .softtops-title{
+        margin-left: 2%;
+    }
+    .reviews-list{
+        min-height: 466px;
+        margin-bottom: 32px;
+    }
+    .form{
+        width: 100%;
+    }
+    .form-obiortka{
+        padding-bottom: 81px;
+    }
+    .footer{
+        height: 151px;
+        text-align: center;
+    }
+    .footer-content{
+        display: block;
+    }
+    .footer-obiortka{
+        margin-top: 20px;
+    }
+    .footer-text{
+        margin-bottom: 12px;
+    }
+    .contact{
+        margin-bottom: 19px;
+    }
+    .footer-list{
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-item{
+        margin-right: 10%;
+    }
+}

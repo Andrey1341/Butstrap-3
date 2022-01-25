@@ -1,0 +1,459 @@
+body{
+    font-family: 'Open sans';
+    line-height: 1.42;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 18px;
+}
+.hero{
+    background: url("./img/arnaud-mesureur-17OxKyThYPo-unsplash\ 1.png") center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+    min-height: 100vh;
+}
+.header{
+    display: none;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    min-height: 652px;
+}
+.container:last-child{
+    min-height: 93px;
+}
+.navbar{
+    margin-bottom: 103px;
+    padding-top: 24px;
+}
+.menu-link{
+    font-weight: bold;
+}
+.hero-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    width: 50%;
+    margin-bottom: 17px;
+}
+.hero-desc{
+    margin-bottom: 39px;
+}
+.btn{
+    padding: 21px 41px;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 100px;
+    background: #FEDB3F;
+}
+.btn:hover{
+    background: #FFD517;
+}
+.btn-margin{
+    margin-bottom: 67px;
+}
+.hero-item__text{
+    font-size: 16px;
+    line-height: 18px;
+    width: 70%;
+}
+.why{
+    margin-bottom: 114px;
+}
+.why-title{
+    margin-top: 103px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+}
+.why-text{
+    padding: 0 29%;
+    color: #666666;
+}
+.surfboarg__item{
+    flex: 1;
+    padding: 0 3%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.surfboarg__item:before{
+    content: url("./img/Shape\ sp-2204-0.png");
+    position: absolute;
+    top: 30px;
+    right: 0;
+    transform: translateX(50%);
+}
+.surfboarg__item:first-child{
+    padding-left: 0;
+}
+.surfboarg__item:last-child{
+    padding-right: 0;
+}
+.surfboarg__item:before:last-child{
+    display: none;
+}
+.surfboarg__img-section{
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    position: relative;
+    background: #F2F5F4;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.surfboarg__icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.surfboarg__title{
+    font-weight: bold;
+    font-size: 27px;
+}
+.surfboarg__desc{
+    color: #666666;
+}
+.section-color{
+    background: #F8FAF9;
+    min-height: 642px;
+}
+.color{
+    display: flex;
+    padding-top: 52px;
+}
+.color-img{
+    margin-right: 7%;
+}
+.color-images{
+    background: url("./img/Longboards-ten.png") center center no-repeat;
+}
+.color-content{
+    margin-top: 14px;
+}
+.parametru-obiortka{
+    border-radius: 4px;
+    background: #3A587E;
+    width: 91px;
+    height: 91px;
+}
+.parametru-img{
+    padding: 17px 26px 7px 27px;
+}
+.parametru-text{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.color-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+.color-text{
+    margin-left: 2px;
+    color: #666666;
+    margin-bottom: 24px;
+    width: 65%;
+}
+.color-list{
+    margin-bottom: 24px;
+}
+.color-item{
+    margin-right: 8%;
+}
+.color-metrov{
+    font-weight: bold;
+}
+.color-cena{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+}
+.komanda-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 67px;
+    margin-bottom: 53px;
+}
+.komanda-list{
+    display: flex;
+}
+.komanda-item{
+    width: 20%;
+}
+.komanda-obiortka__desc{
+    opacity: 0;
+}
+.komanda-link{
+    text-decoration: none;
+}
+.komanda-link:hover .komanda-obiortka__desc:hover{
+    opacity: 1;
+}
+.komanda-desc{
+    color: #292929;
+}
+.komanda__desc{
+    color: #666666;
+}
+.komanda__mobile-list{
+    display: none;
+}
+.section-softtops{
+    background: url("./img/63eaaa8d5c44c52da0c82318b49a9f67.jpeg") center center no-repeat;
+    min-height: 652px;
+}
+.softtops{
+    justify-content: space-between;
+}
+.softtops-title{
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 109px;
+    margin-left: 7%;
+}
+.softtops-item{
+    background: url("./img/e2637b7a8f312800e344b39efd5418e6.jpeg");
+    width: 102px;
+}
+.softtops-item:first-child{
+    background: url("./img/215da60df5856e5cde03e2e6cb7d46be.jpeg");
+}
+.softtops-item:last-child{
+    background: url("./img/9fbc713ab020aac674451fe87a837700.jpeg");
+}
+.softtops-text{
+    margin-top: 600px;
+    transform: rotate(-90deg);
+    font-size: 48px;
+    font-weight: bold;
+}
+.reviews-title{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 57px;
+    text-transform: uppercase;
+    margin-top: 62px;
+    margin-bottom: 32px;
+}
+.reviews-list{
+    background: #F8FAF9;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 348px;
+    margin-bottom: 15px;
+}
+.reviews-item{
+    display: none;
+    opacity: 0;
+}
+.reviews-item--active{
+    display: flex;
+    padding: 42px 142px 42px 42px;
+    margin-top: 0;
+    opacity: 1;
+}
+.reviews-img{
+    margin-right: 5%;
+}
+.reviews-text{
+    margin-top: 28px;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.reviews-desc{
+    color: #666666;
+    margin-bottom: 25px;
+}
+.reviews-name{
+    font-weight: 500;
+}
+.reviews-switch{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 63px;
+}
+.switch__avatar{
+    margin-right: 6px;
+    width: 74px;
+    height: 74px;
+    border: 6px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.switch__avatar:last-child{
+    margin-right: 0;
+}
+.switch__avatar--active{
+    border-color: #FEDB3F;
+}
+.reviews-switch__link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+}
+.reviews-switch__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+.section-form{
+    background: url("./img/cd318b28c9ca7b595ef1ba2ba8ffdac9.jpeg") center center no-repeat;
+}
+.form-title{
+    padding-top: 62px;
+    margin-bottom: 59px;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.form-col{
+    flex: 1;
+    margin-right: 2%;
+}
+.form-col:last-child{
+    margin-right: 0;
+}
+.form-row{
+    margin-bottom: 12px;
+}
+.form-row:last-child{
+    margin-bottom: 0;
+}
+.form-block{
+    flex: 1;
+    margin-right: 17px;
+}
+.form-block:last-child{
+    margin-right: 0;
+}
+.form-input{
+    height: 58px;
+    width: 100%;
+    border: none;
+    padding: 18px 68px 20px 12px;
+    border-radius: 4px;
+}
+.form-input--textarea{
+    height: 152px;
+    resize: none;
+    margin-bottom: 38px;
+}
+.form-controls{
+    flex-wrap: wrap;
+}
+.radio{
+    cursor: pointer;
+    user-select: none;
+    margin-right: 1%;
+}
+.radio:last-child{
+    margin-right: 0;
+}
+.radio:first-child{
+    margin-bottom: 19px;
+}
+.radio-checkbox .radio-visible{
+    border-radius: 0;
+}
+.radio-checkbox .radio-visible::before{
+    content: "";
+    background: url("./img/galka.png") center center no-repeat;
+}
+.radio-elem{
+    display: none;
+}
+.radio-elem:checked ~ .radio-visible::before{
+    display: block;
+}
+.radio-visible{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border-radius: 50%;
+    background: #fff;
+    margin-right: 1%;
+}
+.radio-visible::before{
+    content: "";
+    display: none;
+    width: 13px;
+    height: 13px;
+    background: #FEDB3F;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form-obiortka{
+    padding-bottom: 85px;
+}
+.btn-submit{
+    border: none;
+    margin-right: 2%;
+}
+.btn-reset{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    height: 19px;
+    color: #FFFFFF;
+}
+.btn-reset:hover{
+    color: #E01F3D;
+}
+.footer{
+    height: 86px;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.footer-obiortka{
+    margin-top: 17px;
+}
+.footer-text{
+    font-size: 21px;
+    margin-bottom: 6px;
+}
+.footer-list{
+    display: flex;
+}
+.footer-item{
+    margin-right: 12%;
+}
+.footer-item:last-child{
+    margin-right: 0;
+}
